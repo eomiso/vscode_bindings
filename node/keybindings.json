@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaults
+[
+    // TERMINAL
+    {
+        "key": "cmd+[",
+        "when": "terminalFocus",
+        "command": "workbench.action.terminal.focusPreviousPane"
+    },
+    {
+        "key": "cmd+]",
+        "when": "terminalFocus",
+        "command": "workbench.action.terminal.focusNextPane"
+    },
+    {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "command": "renameFile",
+        "key": "r",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "filesExplorerFocus && !inputFocus"
+    }
+]
